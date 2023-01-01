@@ -4,10 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/styles-layout.css')}}">
     <title>{% block title %}{% endblock %}</title>
 </head>
+<header>
+    <div class="logo">
+        <h2>logo here!</h2>
+    </div>
+    <div class="menu">
+    </div>
+</header>
 <body>
+    <div class="container">
     {% block body %}
     {% endblock %}
+    </div>
 </body>
 </html>

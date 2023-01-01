@@ -1,0 +1,20 @@
+.courses{
+    width: 70%;
+    height: 75vh;
+    /* background: red; */
+    border: 1px black solid;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.course{
+    width: 28%;
+    height: 30%;
+    background: white;
+    border: 1px rgba(0, 0, 0, .3) solid;
+    flex-grow: 0;
+}
